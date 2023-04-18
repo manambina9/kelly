@@ -1,0 +1,172 @@
+ body{
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 20%;
+   border-radius: 50px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ header{
+   background-color: black;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 50px;
+   padding: 0.5%;
+}
+
+header .logo  a{
+    font-size: 35px;
+    color: #29d9d5;
+    
+}
+
+header .logo a span {
+    color: rgb(207, 194, 194);
+}
+
+.menu {
+   display: flex;
+   align-items: center;
+}
+
+.menu li {
+   margin:  0 15px;
+   list-style-type: none;
+}
+.menu li a {
+   color: #fff;
+   font-size: 14px;
+}
+.reservation {
+   color: #29d9d5;
+   font-size: 14px;
+   border: 2px solid #29d9d5;
+   padding: 5px 20px;
+   transition: 0.5s;
+   font-weight: bolder;
+   border-radius: 5px;
+}
+
+.reservation:hover{
+   background-color: #29d9d5;
+   color: #fff;
+}
+
+.corp strong h1{
+   display: flex;
+   align-items: center;
+   color: transparent;
+   margin-left: 33%;
+   margin-right: 29%;
+ 
+   font-size: 35px;
+   background-color: transparent;
+}
+
+.corp h4{
+   text-align: center;
+   color: rgb(218, 16, 16);
+   font-size: 30px;
+   background-color: antiquewhite;
+   border-radius: 10px;
+   margin-left: 27%;
+   margin-right: 29%;
+}
+.corp .src{
+   margin-top: 300px;
+   text-align: center;
+   font-size: 100px;
+}
+.corp .src input{
+   font-size: 30px;
+   background: url('116792.jpg');
+   color: aliceblue;
+   border-radius: 5px;
+}
+.corp .src button{
+   font-size: 30px;
+   margin-left: -30px;
+   color: rgb(251, 242, 242);
+   background-color: darkblue;
+   border-radius: 5px;
+}
+.corp{
+   background: url('image_header_2.png') ;
+}
+.corp p{
+   color:transparent;
+}
+.core{
+   background-color: transparent;
+   text-align: center;
+}
+.core h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgba(152, 152, 209, 0.952);
+}
+.core .a{
+   background-color: transparent;
+   margin-left: 30%;
+   margin-right: 30%;
+}
+.cor h1{
+   margin-top: 50px;
+}
+.cor{
+   text-align: center;
+   margin-top: 30px;
+}
+.cor .card{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 50px red solid;
+   background-color: rgb(240, 244, 244);
+   
+}
+.cor .card1{
+   margin-left: -80px;
+}
+.cor .card2{
+   margin-left: 50px;
+}
+.cor .card3{
+   margin-left: 50px;
+}
+footer span{
+   text-align: center;
+   border-radius: 10px;
+   margin-left: 300px;
+}
+footer .foot{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 50px;
+   background-color: rgb(9, 78, 78);
+   margin-left: -80px;
+   margin-top: 20px;
+}
+footer .foot .acces{
+   margin-left: 400px;
+}
+footer .foot .propos{
+   margin-left: 200px;
+}
+footer .foot .plus{
+   margin-left: 100px;
+}
+footer .foot h3{
+   color: red;
+}
+.fo strong{
+   color: red;
+   margin-left: 5%;
+}
