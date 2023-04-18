@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>accueuil</title>
+   <link rel="stylesheet" href="al.css">
+</head>
+<body>
+
+   <script>
+      function searchFormation() {
+        let input = document.querySelector('.srch').value;
+        // A implémenter: effectuer une requête AJAX pour rechercher les formations correspondant à l'input
+        // A implémenter: afficher les résultats de la recherche dans la page
+      }
+      
+      // Attacher la fonction searchFormation à l'événement click sur le bouton "search"
+      document.querySelector('.btn').addEventListener('click', searchFormation);
+      </script>
+      
+   <header>
+      <div class="logo">
+         <a href="al.html"> <span> LS </span> Formation  </a>
+     </div>
+         <ul class="menu">
+            <li> <a href="al.html">accueuil </a> </li>
+            <li> <a href="offre.html">offre </a> </li>
+            <li> <a href="insc.html">M'inscire </a> </li>
+            <li> <a href="conn.html">Me connecter </a> </li>
+         </ul>
+         <a href="#" class="reservation">Reserver votre place ! </a>
+   </header>
+
+   <div class="corp">
+      <strong><h1> La crème des formations IT en ligne</h1></strong>
+      <h4> Formez-vous auprès des meilleurs à votre rythme </h4>
+      <div class="src">
+         <input class="srch" type="search" name="" id="" placeholder="chercher une formation"></li>
+         <a href="search"> <button class="btn">search</button></a>
+      </div>
+      <div>
+         <p>kelly</p>
+      </div>
+   </div>
+
+   <div class="core">
+      <strong><h1> Boostez votre employabilité grâce a <em>LS Formation</em></h1></strong>
+      <p class="a"> 92,25% des abonnés interrogés dans le cadre de l'enquête ont évoqué un impact "élevé" des formations <em>kellyformation</em> sur leur employabilité.</p>
+      <p class="b">Et vous, vous commencez quand?</p>
+   </div>
+
+   <div class="reser">
+      <form action="">
+         <div>
+             <label> Formation</label>
+             <input type="text" placeholder="Entrer la formation a suivre ">
+         </div>
+
+         <div>
+             <label> Niveau </label>
+             <input type="radio" placeholder=" php">
+         </div>
+
+         <div>
+             <label> Region</label>
+             <input type="text" placeholder=" Entrez une region ">
+         </div>
+
+         <input type="submit" value="Consulter">
+     </form>
+   </div>
+
+   <div class="cor">
+      <strong><h1>Un service client toujours à votre écoute </h1></strong>
+      <div class="card">
+
+         <div class="card1">
+            <img src="Capture.PNG" alt="" width="100px" height="90px">
+            <p>Email</p>
+            <p> <em> kellyandell9@gmail.com</em></p>
+
+         </div>
+
+         <div class="card2">
+            <img src="1.PNG" alt=""width="100px" height="90px">
+            <p>Téléphone</p>
+            <p> <em>+261 34 84 856 35</em> </p>
+         </div>
+
+         <div class="card3">
+            <img src="téléchargement.png" alt=""width="100px" height="90px">
+              <p>facebook</p>
+            <p><em>kelly andell herinantenaina</em></p>
+         </div>
+      </div>
+   </div>
+
+   <footer>
+      <span>Dévéloppez vos compétences IT avec un catalogue de formations inégalées en programmation, base de données, réseaux, sécurité,bureautique, virtualisation, ...</span>   
+     <div class="foot">
+      <div class="acces">
+         <h3>ACCES RAPIDE </h3>
+         <p>formations</p>
+         <p>Offre & tarifs</p>
+         <p>Formateurs</p>
+         <p>Blog</p>
+      </div>
+
+      <div class="plus">
+         <h3>EN SAVOIR PLUS</h3>
+         <p>Boostez votre employabilité</p>
+         <p>Formez-vous en mobilité</p>
+         <p>Financez vos formations</p>
+      </div>
+
+      <div class="propos">
+         <h3>A PROPOS </h3>
+         <p>Aide</p>
+         <p>Nous contacter</p>
+         <p>Devenir formateur</p>
+         <p>Offre Entreprise</p>
+         <p>Qui sommes nous?</p>
+      </div>
+     </div>
+   </footer>
+   <p class="fo"><strong>    &COPY;   Octobre 2022</strong></p> 
+</body>
+</html>
